@@ -1,0 +1,75 @@
+# =========================
+# Build output
+# =========================
+build/
+Build/
+Debug/
+Release/
+out/
+*.elf
+*.bin
+*.hex
+*.map
+*.o
+*.a
+*.d
+
+# =========================
+# CMake
+# =========================
+CMakeFiles/
+CMakeCache.txt
+cmake-build-*/
+Makefile
+compile_commands.json
+
+# =========================
+# STM32CubeIDE
+# =========================
+.project
+.cproject
+.settings/
+
+# =========================
+# Keil
+# =========================
+*.uvprojx
+*.uvoptx
+*.axf
+*.htm
+*.dep
+*.lnp
+
+# =========================
+# IAR
+# =========================
+*.eww
+*.ewp
+*.ewd
+
+# =========================
+# VSCode（推荐保留关键配置）
+# =========================
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+
+# =========================
+# Logs / Debug
+# =========================
+*.log
+*.jlinklog
+
+# =========================
+# OS junk files
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Optional (视情况启用)
+# =========================
+# *.svd
+# *.bak
+# *.tmp
