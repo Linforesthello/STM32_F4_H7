@@ -1,0 +1,5 @@
+r
+h
+loadfile build/Debug/6_Led_test.elf
+r
+q
